@@ -1,7 +1,7 @@
 // import {useParams} from "react-router-dom";
 import Container from "../../components/container/Container.tsx";
 import img from "../../assets/images/img.png"
-// import Button from "../../components/button/Button.tsx";
+import Button from "../../components/button/Button.tsx";
 
 function Product() {
     // const params = useParams();
@@ -29,10 +29,9 @@ function Product() {
 
                     <div className="col-span-2 p-4 bg-blue-400">
                         <img className="rounded" src={img} alt=""/>
-                    </div>
-
-                    <div>
-
+                        <Button onClick={() => alert("salam")}>
+                            اضافه کردن
+                        </Button>
                     </div>
 
                 </div>
