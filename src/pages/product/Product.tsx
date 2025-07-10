@@ -29,8 +29,8 @@ function Product() {
 
                     <div className="col-span-2 p-4 bg-blue-400">
                         <img className="rounded" src={img} alt=""/>
-                        <Button  variant="primary" onClick={() => alert("salam")}>
-                            اضافه کردن
+                        <Button  className="mt-2 w-full !py-3" variant="primary" onClick={() => alert("salam")}>
+                            افزودن به سبد خرید
                         </Button>
                     </div>
 

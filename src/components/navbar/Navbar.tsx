@@ -10,7 +10,11 @@ function Navbar() {
                         <li className="ml-4"><Link to="/">خانه</Link></li>
                         <li className="ml-4"><Link to="/store">فروشگاه</Link></li>
                     </ul>
-                    <div>سبد خرید</div>
+                    <div>
+                        <Link to="/cart">
+                            <button>سبد خرید</button>
+                        </Link>
+                    </div>
                 </div>
             </Container>
         </div>
