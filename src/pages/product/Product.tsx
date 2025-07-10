@@ -29,7 +29,7 @@ function Product() {
 
                     <div className="col-span-2 p-4 bg-blue-400">
                         <img className="rounded" src={img} alt=""/>
-                        <Button onClick={() => alert("salam")}>
+                        <Button  variant="primary" onClick={() => alert("salam")}>
                             اضافه کردن
                         </Button>
                     </div>
